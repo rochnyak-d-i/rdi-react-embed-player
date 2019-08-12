@@ -32,6 +32,11 @@ import 'rdi-react-embed-player/assets/style.css';
 npm i && npm run build
 ```
 
+### Tests
+```bash
+npm test
+```
+
 ### Run example
 
 > EXAMPLE_DIR - the directory in which the example is deployed

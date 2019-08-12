@@ -15,9 +15,9 @@ export default class EmbedPlayer extends PureComponent {
 
   static propTypes = {
     className: PropTypes.string,
-    href: PropTypes.string,
+    href: PropTypes.string.isRequired,
     description: PropTypes.string,
-    image: PropTypes.string,
+    image: PropTypes.string.isRequired,
     iframeAttrs: PropTypes.object,
     buttonLabel: PropTypes.string
   }
