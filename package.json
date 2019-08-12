@@ -1,0 +1,37 @@
+{
+  "name": "rdi-react-embed-player",
+  "version": "1.0.0",
+  "description": "Simple player for embed video",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production npx webpack-cli"
+  },
+  "keywords": [
+    "embed",
+    "video",
+    "react",
+    "component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rochnyak-d-i/rdi-react-embed-player.git"
+  },
+  "author": "Rochnyak Dmitriy",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "webpack": "^4.39.1"
+  }
+}
